@@ -1,0 +1,69 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"members": {
+			"name": "members",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "members",
+			"order": 1
+		},
+		"events": {
+			"name": "events",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "events",
+			"order": 2
+		},
+		"summary": {
+			"name": "summary",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "summary",
+			"order": 3
+		},
+		"technologies": {
+			"name": "technologies",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "technologies",
+			"order": 4
+		},
+		"location": {
+			"name": "location",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "location",
+			"order": 5
+		},
+		"imageUrl": {
+			"name": "imageUrl",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "imageUrl",
+			"order": 6
+		},
+		"backgroundColor": {
+			"name": "backgroundColor",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "backgroundColor",
+			"order": 7
+		}
+	}
+}

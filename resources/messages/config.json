@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"createdAt": {
+			"name": "createdAt",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "createdAt",
+			"order": 0
+		},
+		"participants": {
+			"name": "participants",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "participants",
+			"order": 1
+		},
+		"text": {
+			"name": "text",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "text",
+			"order": 2
+		},
+		"senderName": {
+			"name": "senderName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "senderName",
+			"order": 3
+		},
+		"senderAvatar": {
+			"name": "senderAvatar",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "senderAvatar",
+			"order": 4
+		}
+	}
+}

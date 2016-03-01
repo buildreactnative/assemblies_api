@@ -1,0 +1,85 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"technologies": {
+			"name": "technologies",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "technologies",
+			"order": 0
+		},
+		"location": {
+			"name": "location",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "location",
+			"order": 1
+		},
+		"avatarUrl": {
+			"name": "avatarUrl",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "avatarUrl",
+			"order": 2
+		},
+		"firstName": {
+			"name": "firstName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "firstName",
+			"order": 3
+		},
+		"lastName": {
+			"name": "lastName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "lastName",
+			"order": 4
+		},
+		"summary": {
+			"name": "summary",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "summary",
+			"order": 5
+		},
+		"groupIds": {
+			"name": "groupIds",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "groupIds",
+			"order": 6
+		},
+		"eventIds": {
+			"name": "eventIds",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "eventIds",
+			"order": 7
+		},
+		"messageIds": {
+			"name": "messageIds",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "messageIds",
+			"order": 8
+		},
+		"suggestedEventIds": {
+			"name": "suggestedEventIds",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "suggestedEventIds",
+			"order": 9
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "type",
+			"order": 0
+		},
+		"relatedUserIds": {
+			"name": "relatedUserIds",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "relatedUserIds",
+			"order": 1
+		},
+		"message": {
+			"name": "message",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "message",
+			"order": 2
+		},
+		"timestamp": {
+			"name": "timestamp",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "timestamp",
+			"order": 3
+		},
+		"seen": {
+			"name": "seen",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "seen",
+			"order": 4
+		}
+	}
+}

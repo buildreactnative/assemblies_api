@@ -1,0 +1,93 @@
+{
+	"type": "Collection",
+	"properties": {
+		"start": {
+			"name": "start",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "start",
+			"order": 0
+		},
+		"end": {
+			"name": "end",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "end",
+			"order": 1
+		},
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 2
+		},
+		"summary": {
+			"name": "summary",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "summary",
+			"order": 3
+		},
+		"attending": {
+			"name": "attending",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "attending",
+			"order": 4
+		},
+		"maybe": {
+			"name": "maybe",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "maybe",
+			"order": 5
+		},
+		"notAttending": {
+			"name": "notAttending",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "notAttending",
+			"order": 6
+		},
+		"location": {
+			"name": "location",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "location",
+			"order": 7
+		},
+		"groupId": {
+			"name": "groupId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "groupId",
+			"order": 8
+		},
+		"comments": {
+			"name": "comments",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "comments",
+			"order": 9
+		},
+		"capacity": {
+			"name": "capacity",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "capacity",
+			"order": 10
+		}
+	}
+}
