@@ -1,0 +1,20 @@
+{
+  "name": "build_react_native",
+  "version":"0.0.1",
+  "description":"API for Build React Native mobile app tutorial",
+  "keywords": ["JavaScript", "ReactJS", "React Native"],
+  "homepage": "",
+  "author": "Tom Goldenberg",
+  "contributors": ["Nicholas Alan Brown"],
+  "dependencies": {
+    "deployd": ">= 0"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  },
+  "license": "MIT"
+}
