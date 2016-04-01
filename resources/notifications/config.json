@@ -11,8 +11,8 @@
 		},
 		"relatedUserIds": {
 			"name": "relatedUserIds",
-			"type": "array",
-			"typeLabel": "array",
+			"type": "object",
+			"typeLabel": "object",
 			"required": true,
 			"id": "relatedUserIds",
 			"order": 1
@@ -33,13 +33,21 @@
 			"id": "timestamp",
 			"order": 3
 		},
-		"seen": {
-			"name": "seen",
-			"type": "boolean",
-			"typeLabel": "boolean",
+		"eventId": {
+			"name": "eventId",
+			"type": "string",
+			"typeLabel": "string",
 			"required": false,
-			"id": "seen",
+			"id": "eventId",
 			"order": 4
+		},
+		"userIdString": {
+			"name": "userIdString",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "userIdString",
+			"order": 5
 		}
 	}
 }
